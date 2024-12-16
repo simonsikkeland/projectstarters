@@ -1,0 +1,10 @@
+name: CONDA_PROJECT_NAME
+
+dependencies:
+- python=3.8.5                  #PYTHON VERSION - This can be changed
+- pip                           #pip for pip install requirements
+- tk=8.6.12                     #tklinter
+
+- pip:  
+  - -r requirements.txt         #pip packages goes into requirements.txt 
+  - -r tests/requirements.txt   #Testing tools
